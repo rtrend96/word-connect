@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/word-connect/static/css/main.4f070632.css",
-    "main.js": "/word-connect/static/js/main.0519cf55.js",
+    "main.js": "/word-connect/static/js/main.a7d21ac7.js",
     "static/js/453.59df096b.chunk.js": "/word-connect/static/js/453.59df096b.chunk.js",
     "index.html": "/word-connect/index.html",
     "main.4f070632.css.map": "/word-connect/static/css/main.4f070632.css.map",
-    "main.0519cf55.js.map": "/word-connect/static/js/main.0519cf55.js.map",
+    "main.a7d21ac7.js.map": "/word-connect/static/js/main.a7d21ac7.js.map",
     "453.59df096b.chunk.js.map": "/word-connect/static/js/453.59df096b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f070632.css",
-    "static/js/main.0519cf55.js"
+    "static/js/main.a7d21ac7.js"
   ]
 }
