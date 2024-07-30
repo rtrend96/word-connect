@@ -1,4 +1,3 @@
-// create home component
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
@@ -24,19 +23,42 @@ function App() {
 		"attorney",
 		"clients",
 	]);
-	const [level2] = useState(["coming soon..!"]);
+	const [level2] = useState([
+		"Bass",
+		"Flounder",
+		"Salmon",
+		"Trout",
+		"Ant",
+		"Drill",
+		"Island",
+		"Opal",
+		"Arena",
+		"Bowl",
+		"Coliseum",
+		"Dome",
+		"Alley",
+		"Court",
+		"Drive",
+		"Lane",
+	]);
 	const [level3] = useState(["coming soon..!"]);
 	const [level4] = useState(["coming soon..!"]);
 	const [originalWords, setOriginalWords] = useState([]);
 	const [words, setWords] = useState([]);
 	const [flashMessage, setFlashMessage] = useState(null);
 	const checkWords = [
-		["left", "right", "up", "down"],
-		["ball", "bat", "stumps", "umpire"],
-		["tyre", "seats", "mirrors", "engine"],
-		["judge", "clark", "attorney", "clients"],
-		["fish", "shells", "sand", "boat"],
-		["leaves", "fruits", "flower", "brach"],
+		["left", "right", "up", "down"],//direction
+		["ball", "bat", "stumps", "umpire"],//cricket
+		["tyre", "seats", "mirrors", "engine"],//car
+		["judge", "clerk", "attorney", "clients"],//court system
+		["Bass", "Flounder", "Salmon", "Trout"],//fish
+		["Ant", "Drill", "Island", "Opal"],//fire
+		["Arena", "Bowl", "Coliseum", "Dome"],//stadium
+		["Alley", "Court", "Drive", "Lane"],//STREET SUFFIXES
+    ["Fish","Justice","Libra","Solfege"],//ASSOCIATED WITH SCALES
+    ["Fountain","Gutter","Teapot","Whale"]//THINGS WITH SPOUTS
+		["fish", "shells", "sand", "boat"],//sea associated
+		["leaves", "fruits", "flower", "brach"],//ASSOCIATED with Tree
 	];
 
 	const handleWordClick = (word, index) => {
